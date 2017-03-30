@@ -22,7 +22,9 @@ Or install it yourself as:
 
 After Installation has successfully proceeded, just call the renderer like so:  
 
-    TechienovViewTool::Renderer.copyright "Techienov", "All rights reserved"
+```ruby
+TechienovViewTool::Renderer.copyright "Techienov", "All rights reserved"
+```
 
 In place of `Techinov`, you can pass your copyright name. Similarly in case of `All rights reserved` pass your message. Done.
 
