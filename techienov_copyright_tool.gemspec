@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Novneet"]
   spec.email         = ["novneet346iith@gmail.com"]
 
-  spec.summary       = %q{}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A copyright footer info to use}
+  spec.description   = %q{This gem adds the copyright info to your website. Just input the required name and the message.}
+  spec.homepage      = "https://github.com/novneetnov/techienov-copyright-tool"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|

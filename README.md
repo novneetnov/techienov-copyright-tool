@@ -1,8 +1,6 @@
 # TechienovCopyrightTool
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/techienov_copyright_tool`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem adds the copyright info to your website. Just input the required name and the message.
 
 ## Installation
 
@@ -22,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+After Installation has successfully proceeded, just call the renderer like so:  
+
+    TechienovViewTool::Renderer.copyright "Techienov", "All rights reserved"
+
+In place of `Techinov`, you can pass your copyright name. Similarly in case of `All rights reserved` pass your message. Done.
 
 ## Development
 
